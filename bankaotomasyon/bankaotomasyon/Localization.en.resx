@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="askidaparabasarili" xml:space="preserve">
+    <value>Donation successful. {0} points are assigned to your account.</value>
+  </data>
+  <data name="askidaparabasarisiz" xml:space="preserve">
+    <value>Donation failed.</value>
+  </data>
+  <data name="bilgilendirme" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="btnGiris" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btnIslemGecmisi" xml:space="preserve">
+    <value>Transaction History</value>
+  </data>
+  <data name="btnKayit" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="btnMusteriKaydiOlustur" xml:space="preserve">
+    <value>Create Customer Record</value>
+  </data>
+  <data name="btnMusteriSil" xml:space="preserve">
+    <value>Delete Selected Customer Record</value>
+  </data>
+  <data name="btnParacek" xml:space="preserve">
+    <value>Withdraw Money</value>
+  </data>
+  <data name="btnParayatir" xml:space="preserve">
+    <value>Deposit Money</value>
+  </data>
+  <data name="btnReferans" xml:space="preserve">
+    <value>Login with Reference Code</value>
+  </data>
+  <data name="btn_Bagis" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="btn_faturaode" xml:space="preserve">
+    <value>Pay Bill</value>
+  </data>
+  <data name="btn_kAskidaPara" xml:space="preserve">
+    <value>Money Donation</value>
+  </data>
+  <data name="btn_odeme" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="btn_paracek" xml:space="preserve">
+    <value>Withdraw Money</value>
+  </data>
+  <data name="btn_paratransfer" xml:space="preserve">
+    <value>Transfer Money</value>
+  </data>
+  <data name="btn_parayatir" xml:space="preserve">
+    <value>Deposit Money</value>
+  </data>
+  <data name="btn_puancevir" xml:space="preserve">
+    <value>Convert Points to Cash</value>
+  </data>
+  <data name="btn_sansinidene" xml:space="preserve">
+    <value>Try Your Chance</value>
+  </data>
+  <data name="cikis" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Dogalgaz" xml:space="preserve">
+    <value>Natural Gas</value>
+  </data>
+  <data name="Elektrik" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="FaturaBasarili" xml:space="preserve">
+    <value>Invoice payment successful. {0} points have been assigned to your account and the amount of {1} ₺ has been added to your account as a refund. Thank you for choosing us.</value>
+  </data>
+  <data name="FaturaBasarisiz" xml:space="preserve">
+    <value>Bill payment process failed.</value>
+  </data>
+  <data name="FormAskidaPara" xml:space="preserve">
+    <value>Money Donation</value>
+  </data>
+  <data name="Giris" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="gridAd" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gridislemno" xml:space="preserve">
+    <value>Transaction NO</value>
+  </data>
+  <data name="gridmiktar" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="gridSoyad" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="gridtarih" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="gridyapilanislem" xml:space="preserve">
+    <value>Action Taken</value>
+  </data>
+  <data name="hataliref" xml:space="preserve">
+    <value>The reference code entered is incorrect.</value>
+  </data>
+  <data name="iptal" xml:space="preserve">
+    <value>The exit operation has been cancelled.</value>
+  </data>
+  <data name="KayitEkrani" xml:space="preserve">
+    <value>Register Interface</value>
+  </data>
+  <data name="KayıtOlusturmaBasarili" xml:space="preserve">
+    <value>Registration Successful.</value>
+  </data>
+  <data name="KullaniciAdiKullanimda" xml:space="preserve">
+    <value>This username is in use. Please choose another username.</value>
+  </data>
+  <data name="KullaniciEkrani" xml:space="preserve">
+    <value>User Interface</value>
+  </data>
+  <data name="KullaniciHatali" xml:space="preserve">
+    <value>Username or password is wrong.</value>
+  </data>
+  <data name="label2" xml:space="preserve">
+    <value>Balance: </value>
+  </data>
+  <data name="label3" xml:space="preserve">
+    <value>Points:</value>
+  </data>
+  <data name="lblHosgeldinYonetici" xml:space="preserve">
+    <value>Welcome Dear Manager,</value>
+  </data>
+  <data name="lblKullaniciAdi" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblKullaniciAdi1" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblOdenecekFaturaText" xml:space="preserve">
+    <value>Select Invoice Payable</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblReferansKodu" xml:space="preserve">
+    <value>Reference Code</value>
+  </data>
+  <data name="lblSoyisim" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="lblTC" xml:space="preserve">
+    <value>TC No</value>
+  </data>
+  <data name="lblTransferYapilacakKisi" xml:space="preserve">
+    <value>Person to be Transfer</value>
+  </data>
+  <data name="lblTransferYapilacakMiktar" xml:space="preserve">
+    <value>Amount to be Transfer</value>
+  </data>
+  <data name="lblYas" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="lblYatiralacakTutar" xml:space="preserve">
+    <value>Amount to Deposit</value>
+  </data>
+  <data name="lbl_AskidakiPara" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AskidakiToplamPara" xml:space="preserve">
+    <value>Total Donated Money</value>
+  </data>
+  <data name="lbl_atmtoplampara" xml:space="preserve">
+    <value>Total Money in the ATM</value>
+  </data>
+  <data name="lbl_CekilecekTutar" xml:space="preserve">
+    <value>Amount To Be Withdrawn</value>
+  </data>
+  <data name="lbl_faturamesaj" xml:space="preserve">
+    <value>5% of your invoice amount is Cashback!</value>
+  </data>
+  <data name="lbl_hosgeldiniz" xml:space="preserve">
+    <value>Welcome,</value>
+  </data>
+  <data name="lbl_kAciklama" xml:space="preserve">
+    <value>Pick a number and get started now! The entrance fee to the game is (20) Points, Big Reward (200) Points!</value>
+  </data>
+  <data name="lbl_odenecektutar" xml:space="preserve">
+    <value>Amount to Be Paid:</value>
+  </data>
+  <data name="lbl_YapilacakBagis" xml:space="preserve">
+    <value>Donation Amount</value>
+  </data>
+  <data name="lblİsim" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ParaCekme" xml:space="preserve">
+    <value>Withdraw Money</value>
+  </data>
+  <data name="ParacekmeBasarili" xml:space="preserve">
+    <value>Withdrawal successful.</value>
+  </data>
+  <data name="ParacekmeBasarisiz" xml:space="preserve">
+    <value>Withdrawal failed.</value>
+  </data>
+  <data name="ParaTransfer" xml:space="preserve">
+    <value>Transfer Money</value>
+  </data>
+  <data name="ParatransferBasarili" xml:space="preserve">
+    <value>Money transfer successful.</value>
+  </data>
+  <data name="ParatransferBasarisiz" xml:space="preserve">
+    <value>Money transfer failed.</value>
+  </data>
+  <data name="ParaYatirma" xml:space="preserve">
+    <value>Depoist Money</value>
+  </data>
+  <data name="ParayatirmaBasarili" xml:space="preserve">
+    <value>Deposit successful.</value>
+  </data>
+  <data name="ParayatirmaBasarisiz" xml:space="preserve">
+    <value>Deposit failed.</value>
+  </data>
+  <data name="puancevirmebasarili" xml:space="preserve">
+    <value>Score conversion successful.</value>
+  </data>
+  <data name="puancevirmebasarisiz" xml:space="preserve">
+    <value>Points conversion failed.</value>
+  </data>
+  <data name="ReferansGiris" xml:space="preserve">
+    <value>Login with Reference Code</value>
+  </data>
+  <data name="SansiniDene" xml:space="preserve">
+    <value>Try Your Chance</value>
+  </data>
+  <data name="sansinidenebasarisiz" xml:space="preserve">
+    <value>The operation failed.</value>
+  </data>
+  <data name="sansinidenekaybettiniz" xml:space="preserve">
+    <value>You lost. Number You Are Holding: {0} Lucky Number: {1}</value>
+  </data>
+  <data name="sansinidenekazandiniz" xml:space="preserve">
+    <value>Congratulations, you've earned 200 points. The Number You Are Holding: {0} Lucky Number: {1}</value>
+  </data>
+  <data name="sansinidenesayisec" xml:space="preserve">
+    <value>Please select a number.</value>
+  </data>
+  <data name="secim" xml:space="preserve">
+    <value>Do you want to close the program?</value>
+  </data>
+  <data name="Su" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="yanlismail" xml:space="preserve">
+    <value>The email address entered is invalid.</value>
+  </data>
+  <data name="Yapilanislemler" xml:space="preserve">
+    <value>Transactions Taken</value>
+  </data>
+  <data name="YoneticiGirisi" xml:space="preserve">
+    <value>Admin Login</value>
+  </data>
+</root>
